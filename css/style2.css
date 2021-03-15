@@ -1,5 +1,5 @@
 header {
-    width: 70%;
+    width: 100%;
 }
 
 #logo-head {
@@ -11,8 +11,10 @@ header {
 img {
     width: 20%;
     height: auto;
-}
+      }
     
+  /* si può posizionare il logo in basso a sx senza usare position relative/absolute? */
+
 main {
     width: 60%;
 }
@@ -47,22 +49,8 @@ h6 {
     background-color: yellow;
 }
 
-table {
-    width: 100%;
-}
-
-th {
-    text-align: left;
-    color: white;
-}
-
-.tab-tre {
-    width: 50%;
-}
-
 thead {
     background-color: blue;
-    height: 10px;
 }
 
 .tr1, .tr3 {
@@ -80,7 +68,6 @@ h4 {
 }
 
 #imgtesto1 {
-    margin: 5px;
     background-size: auto;
     background-image: url(../img/monitor.jpg);
     width: 200px;
@@ -89,7 +76,6 @@ h4 {
 }
 
 #imgtesto2 {
-    margin: 5px;
     background-size: auto;
     background-image: url(../img/graph.jpg);
     width: 200px;
