@@ -49,6 +49,12 @@ h6 {
     background-color: yellow;
 }
 
+/* sbagliato ma come si fa a mettere l'unordered list attaccato a sinistra? */
+
+ul {
+    margin: 15px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
