@@ -1,4 +1,84 @@
-#logo {
-    background-image: url(img/pattern.png);
+header {
+    width: 60%;
+}
+
+#logo-head {
+    background: #0099ff;
+    background-image: url("../img/pattern.png");
     height: 100px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+      }
+    
+  /* si può posizionare il logo in basso a sx senza usare position relative/absolute? */
+
+main {
+width: 60%;
+}
+
+#booleaner {
+    color: #0099ff;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h6 {
+    margin-top: 0px;
+}
+
+.fototim {
+    width: auto;
+    height: 200px;
+}
+
+.didascalia {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.yellowbackg {
+    background-color: yellow;
+}
+
+thead {
+    background-color: blue;
+}
+
+.tr1, .tr3 {
+    background-color: #0099ff;
     }
+
+h4 {
+    color: grey;
+}
+
+.testoimg {
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+}
+
+#imgtesto1 {
+    background-size: auto;
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}
+
+#imgtesto2 {
+    background-size: auto;
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}
