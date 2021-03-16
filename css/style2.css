@@ -7,13 +7,17 @@ header {
     background: #0099ff;
     background-image: url("../img/pattern.png");
     height: 100px;
+    margin-bottom: 0px;
 }
 
 img {
     width: 20%;
     height: auto;
+    margin-top: 5%;
 }
-    
+
+/* sbagliato il margin-top perchè ho fatto a tentativi. Come fare?  */
+
 main {
     margin: 0px auto;
     width: 60%;
@@ -52,7 +56,7 @@ h6 {
 /* sbagliato ma come si fa a mettere l'unordered list attaccato a sinistra? */
 
 ul {
-    margin: 15px;
+    padding: 15px;
 }
 
 table {
