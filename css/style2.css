@@ -8,7 +8,10 @@ header {
     background-image: url("../img/pattern.png");
     height: 100px;
     margin-bottom: 0px;
+    background-size: 400px;
 }
+
+/* se metto backgroundsize in % si rimpicciolirà man mano che cambia la risoluzione, se imposto un px (in questo caso 400px) mi manterrà l'immagine che voglio fare vedere */
 
 img {
     width: 20%;
